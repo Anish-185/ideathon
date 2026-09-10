@@ -15,10 +15,12 @@ dist/
 build/
 .vite/
 
-# Data artifacts (keep directory structure via .gitkeep)
+# Data artifacts: downloaded + generated, reproducible via scripts/ingest_data.py.
+# Directory structure is kept via .gitkeep; contents are not committed.
 sideeffect2cure/data/raw/*
 sideeffect2cure/data/processed/*
 sideeffect2cure/data/features/*
+sideeffect2cure/data/mappings/*
 !sideeffect2cure/data/**/.gitkeep
 
 # Notebooks
