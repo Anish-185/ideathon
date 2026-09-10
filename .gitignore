@@ -21,6 +21,7 @@ sideeffect2cure/data/raw/*
 sideeffect2cure/data/processed/*
 sideeffect2cure/data/features/*
 sideeffect2cure/data/mappings/*
+sideeffect2cure/data/models/*
 !sideeffect2cure/data/**/.gitkeep
 
 # Notebooks
