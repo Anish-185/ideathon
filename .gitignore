@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Data artifacts (keep directory structure via .gitkeep)
+sideeffect2cure/data/raw/*
+sideeffect2cure/data/processed/*
+sideeffect2cure/data/features/*
+!sideeffect2cure/data/**/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
