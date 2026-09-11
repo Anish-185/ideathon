@@ -31,7 +31,7 @@ sideeffect2cure/
 │   ├── tests/
 │   ├── requirements.txt
 │   └── pyproject.toml
-├── frontend/                React + TypeScript dashboard (not yet scaffolded)
+├── frontend/                React + TypeScript dashboard (Vite)
 ├── data/                    raw / processed / features (git-ignored contents)
 ├── notebooks/
 ├── scripts/                ingest_data.py, validate_data.py (L1), train_model.py (P6),
